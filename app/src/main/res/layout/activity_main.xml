@@ -56,7 +56,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.824"
-        app:srcCompat="@drawable/btncal" />
+        app:srcCompat="@drawable/btncal"
+        tools:srcCompat="@drawable/btncal" />
 
     <EditText
         android:id="@+id/Edad"
@@ -73,5 +74,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.577" />
+
+    <Button
+        android:id="@+id/btni"
+        android:layout_width="118dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/anton"
+        android:text="Integrantes"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/foncal"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
