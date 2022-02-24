@@ -83,6 +83,7 @@
         android:fontFamily="@font/anton"
         android:text="Integrantes"
         android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/foncal"
         app:layout_constraintHorizontal_bias="0.938"
