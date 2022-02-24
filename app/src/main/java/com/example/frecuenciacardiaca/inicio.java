@@ -15,7 +15,7 @@ import com.bumptech.glide.Glide;
 public class inicio extends AppCompatActivity {
 
     private ImageButton ini;
-    private VideoView fond;
+
     private ImageView gif;
 
     @Override
@@ -24,10 +24,8 @@ public class inicio extends AppCompatActivity {
         setContentView(R.layout.activity_inicio);
         ini = (ImageButton) findViewById(R.id.IBini);
         gif = findViewById(R.id.fcgif);
-        //fond = findViewById(R.id.fonvi);
         Glide.with(getApplicationContext()).load(R.drawable.gifxd).into(gif);
-        /*fond.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.fcn));
-        fond.start();*/
+
 
         ini.setOnClickListener(new View.OnClickListener() {
             @Override
